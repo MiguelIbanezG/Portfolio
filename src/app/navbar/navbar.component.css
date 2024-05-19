@@ -1,10 +1,10 @@
+
 .navbar {
-    background-color: transparent;
+    background-color: black;
 }
 
 .navbar-menu {
     background-color: black;
-    
 }
 
 nav a,
@@ -22,7 +22,14 @@ nav a:before {
 .navbar-end {
     justify-content: center;
     text-align: center;
-    margin-right: 20px;
+    padding: 0;
+    margin-right: 18px;
+    max-height: 50px;
+}
+
+.navbar-start {
+    padding: 0;
+    max-height: 50px;
 }
 
 .no-seleccion-texto {
@@ -42,20 +49,12 @@ nav a:before {
       */
 }
 
-
-
 span {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin: 4px;
+    padding: 0;
 }
-
-span {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 4px;
-}
-
 
 /*Color del Hover en el navBar*/
 
@@ -83,6 +82,35 @@ a:hover {
 .idiomas {
     border-radius: 50px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.logo{
+    margin-right: 5px;
+}
+
+.language {
+    width: 30px;  
+    height: auto; 
+}
+
+.Nombremov{
+    margin-right: -45px;
+}
+
+.navbar-brand{
+    background-color: black;
+}
+
+.vertical-bar {
+    width: 2px; 
+    height: 30px; 
+    background-color: white; 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block; 
+    vertical-align: middle; 
 }
 
 
@@ -144,7 +172,7 @@ nav label #menu-icon {
 /*Efecto de Overlay*/
 
 .overlay {
-    background: #348F50;
+    background: #000000;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffffff, #424040);
     /* Chrome 10-25, Safari 5.1-6 */

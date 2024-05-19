@@ -1,10 +1,8 @@
 {
-    "ESPAÑOL_LANGUAGE": "ESPAÑOL",
-    "INGLES_LANGUAGE": "INGLES",
-    "HOME_NAVBAR": "Home",
-    "PERFIL_NAVBAR": "Perfil",
-    "TRABAJOS_NAVBAR": "Experiencia Laboral",
-    "PROYECTOS_PERSONALES_NAVBAR": "Proyectos Personales",
-    "APRENDIENDO_NAVBAR": "Seguir Aprendiendo"
+    "Home": "Home",
+    "Profile": "Perfil",
+    "Experiencie": "Experiencia Laboral",
+    "Proyects": "Proyectos Personales",
+    "Learn": "Aprende Progrmación"
 
 }
