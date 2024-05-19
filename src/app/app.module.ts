@@ -13,7 +13,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app.routing.module';
 import { ModalModule } from 'ngx-bootstrap/modal';
-import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { FooterComponent } from './footer/footer.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ExperiencieComponent } from './experiencie/experiencie.component';
+import { ProgrammingComponent } from './programming/programming.component';
+import { ProyectsComponent } from './proyects/proyects.component';
 
 
 /**
@@ -30,7 +34,11 @@ export function createTranslateLoader(http: HttpClient) {
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ExperienciaComponent
+    FooterComponent,
+    ProfileComponent,
+    ExperiencieComponent,
+    ProgrammingComponent,
+    ProyectsComponent
   ],
   imports: [
     TranslateModule.forRoot({
