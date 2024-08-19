@@ -18,7 +18,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: false }), // Modo HTML5
+  imports: [RouterModule.forRoot(routes, { useHash: true }),
             ModalModule.forRoot()],
   exports: [RouterModule]
 })
