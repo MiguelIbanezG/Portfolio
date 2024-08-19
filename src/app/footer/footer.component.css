@@ -1,18 +1,18 @@
 .footer {
+  font-size: 16px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
-  padding: 0px;
-  background-color: black; /* Puedes cambiar el color de fondo según tus necesidades */
+  padding: 2px;
+  background-color: black; 
 }
 
-.footer .left,
-.footer .center,
-.footer .right {
-  flex: 1;
+.footer .left {
+  text-align: left; 
 }
 
 .footer .center {
+  margin: 0 auto; 
   text-align: center;
 }
 
