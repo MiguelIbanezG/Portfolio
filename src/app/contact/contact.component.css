@@ -1,0 +1,24 @@
+
+a {
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background: #ffffff; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-decoration: none;
+}
+
+a i {
+    color: #b12525; 
+    font-size: 28px; 
+}
+
+a:hover i {
+    background: #b12525; 
+    color: #ffffff; 
+    border-radius: 50%; 
+    padding: 10px; 
+}

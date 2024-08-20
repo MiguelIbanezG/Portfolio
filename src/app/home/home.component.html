@@ -1,1 +1,50 @@
-<p>home</p>
+<section class="section pt-0">
+    <div class="container">
+        <div class="cajaPadre">
+            <div class="cajaFoto">
+                <figure class="image">
+                    <div class="circular-border">
+                        <img src="assets/image/foto2.png" class="is-rounded" alt="Miguel Ibáñez">
+                    </div>
+                </figure>
+            </div>
+            <div class="text-saludo">
+                <h1 class="saludo">
+                    <img src="assets/image/mano.png" alt="Icono de saludo" class="icono-saludo">
+                    <strong>{{ "Saludo" | translate }}</strong>
+                </h1>
+                <p class="nombre">
+                    <strong>{{"Nombre"|translate}}</strong>
+                </p>
+                <p class="puesto">
+                    <strong>{{"Puesto"|translate}}</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="has-text-centered is-hidden-desktop">
+            <div class="columns">
+
+                <div class="column">
+                    <figure class="image is-3by4">
+                        <img src="assets/image/foto2.png" class="is-rounded " alt="Miguel Ibáñez">
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <div class="row">
+                        <h1 class="has-text-centered is-size-4">
+                            <strong>{{ "SALUDO_HOME" | translate }}</strong>
+                        </h1>
+                        <p class="has-text-centered is-size-4">
+                            <strong>{{"NOMBRE_HOME"|translate}}</strong>
+                        </p>
+                        <p class="has-text-centered is-size-4">
+                            <strong>{{"SUBTITULO_HOME"|translate}}</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.cajaPadre {
+    text-align: center;
+}
+
+.cajaFoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.is-rounded {
+    height: 130%; 
+    width: 130%; 
+    margin-top: -30%;
+}
+
+.circular-border {
+    border: 3px solid black; 
+    border-radius: 100%; 
+    padding: 2px; 
+    height: 45vh; 
+    width: 45vh;
+    margin-top: 50px;
+}
+
+.icono-saludo {
+    width: 70px; 
+    height: 50px; 
+    margin-right: 10px; 
+    margin-bottom: -10px;
+}
+
+.text-saludo{
+    font-family: "Roboto";
+}
+
+.saludo{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.nombre{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.puesto{
+    font-size: 30px;
+    margin: 0px;
+} 
+
+strong{
+    color: black;
+}
+
+
+

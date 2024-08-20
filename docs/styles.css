@@ -10,7 +10,7 @@ html {
   background: #000000;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #424040);
+  background: linear-gradient(to right, #ffffff, #6e6c6c);
 }
 
 .textoEncima {

@@ -18,6 +18,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { ExperiencieComponent } from './experiencie/experiencie.component';
 import { ProgrammingComponent } from './programming/programming.component';
 import { ProyectsComponent } from './proyects/proyects.component';
+import { SocialNetworkComponent } from './social-network/social-network.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 /**
@@ -38,7 +40,9 @@ export function createTranslateLoader(http: HttpClient) {
     ProfileComponent,
     ExperiencieComponent,
     ProgrammingComponent,
-    ProyectsComponent
+    ProyectsComponent,
+    SocialNetworkComponent,
+    ContactComponent
   ],
   imports: [
     TranslateModule.forRoot({
@@ -54,6 +58,10 @@ export function createTranslateLoader(http: HttpClient) {
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
+  ],
+  exports:[
+    SocialNetworkComponent,
+    ContactComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
