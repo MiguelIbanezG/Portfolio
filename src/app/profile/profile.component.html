@@ -2,32 +2,49 @@
 <section class="section" id="profile">
     <div class="container">
         <div class="has-text-centered section-heading">
-            <h1 class="textoDetras title is-2 is-uppercase">{{"TITULO1_PROFILE"|translate}}</h1>
-            <h1 class="textoEncima subtitle is-uppercase">{{"SUBTITULO1_PROFILE"|translate}}</h1>
+            <h1 class="textoEncima title is-2 is-uppercase">{{"Info"|translate}}</h1>
+            <h1 class="textoEncima subtitle is-uppercase">{{"Perfil"|translate}}</h1>
         </div>
 
         <div class="box mt-6 transparente">
             <div class="content">
-                <table class="table has-text-centered">
-                    <tbody>
+                <table class="table has-text-centered" style="color: white;">
+                    <tbody class="box2">
                         <tr>
-                            <td>{{"TITULO_NOMBRE_PROFILE"|translate}}</td>
-                            <td>{{"INFORMACION_NOMBRE_PROFILE"|translate}}</td>
+                            <td>{{"Name"|translate}}</td>
+                            <td>{{"Nombre2"|translate}}</td>
                         </tr>
                         <tr>
-                            <td>{{"TITULO_RESIDENCIA_PROFILE"|translate}}</td>
-                            <td>{{"INFORMACION_RESIDENCIA_PROFILE"|translate}}</td>
+                            <td>{{"Residencia"|translate}}</td>
+                            <td>{{"Residencia2"|translate}}</td>
                         </tr>
                         <tr>
-                            <td>{{"TITULO_CARRERA_PROFILE"|translate}}</td>
-                            <td>{{"INFORMACION_CARRERA_PROFILE"|translate}}</td>
+                            <td>{{"Universidad"|translate}}</td>
+                            <td>{{"Universidad2"|translate}}</td>
                         </tr>
                         <tr>
-                            <td>{{"TITULO_POSTGRADO_PROFILE"|translate}}</td>
-                            <td>
-                                {{"INFORMACION_POSTGRADO1_PROFILE"|translate}}
-                                <br> {{"INFORMACION_POSTGRADO2_PROFILE"|translate}}
-                            </td>
+                            <td>{{"Carrera"|translate}}</td>
+                            <td>{{"Carrera2"|translate}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{"Master"|translate}}</td>
+                            <td>{{"Master2"|translate}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{"Gmail"|translate}}</td>
+                            <td>{{"Gmail2"|translate}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{"Linkedin"|translate}}</td>
+                            <td><a href="https://www.linkedin.com/in/miguel-ib%C3%A1%C3%B1ez/">in/miguel-ibañez</a></td>
+                        </tr>
+                        <tr>
+                            <td>{{"GitHub"|translate}}</td>
+                            <td><a href="https://github.com/MiguelIbanezG">MiguelIbanezG</a></td>
+                        </tr>
+                        <tr>
+                            <td>{{"Teléfono"|translate}}</td>
+                            <td>{{"Teléfono2"|translate}}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -40,12 +57,11 @@
 <section class="section" id="services">
     <div class="container">
         <div class="has-text-centered section-heading">
-            <h1 class="textoDetras title is-2 is-uppercase">{{"TITULO2_PROFILE"|translate}}</h1>
-            <h1 class="textoEncima subtitle is-uppercase">{{"SUBTITULO_PROFILE"|translate}}</h1>
+            <h1 class="textoEncima title is-2 is-uppercase">{{"Sobre_mi"|translate}}</h1>
         </div>
 
         <!-- <div class="columns"> -->
-        <div class="mt-6 mb-6 ">
+        <div>
             <div class="columns is-vcentered is-centered">
                 <div class="column">
                     <figure class="image">
@@ -55,42 +71,110 @@
                 <div class="column transparente is-vcentered is-centered">
                     <div class="box">
                         <div class="content">
-                            <h4 class="has-text-centered title is-5">{{"FRONTEND_PROFILE"|translate}}</h4>
-                            <p>{{"DESCRIPCION_FRONTEND_PROFILE"|translate}}</p>
+                            <p>{{"Info_sobre_mi"|translate}}</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
-        <div class=" mt-6 mb-6 is-vcentered is-centered">
-            <div class="columns is-vcentered is-centered">
-                <div class="column transparente">
-                    <div class="box">
-                        <div class="content">
-                            <h4 class="has-text-centered title is-5">{{"BACKEND_PROFILE"|translate}}</h4>
-                            <p>{{"DESCRIPCION_BACKEND_PROFILE"|translate}} </p>
-                        </div>
+
+        <div class="skills" id="Herramientas">
+            <div class="has-text-centered section-heading">
+                <h1 class="textoEncima title is-2 is-uppercase">{{"Lenguajes"|translate}}</h1>
+            </div>
+    
+            <div class="lenguajes">
+                <div class="columns is-vcentered is-centered">
+                    <!-- PHP -->
+                    <div class="column is-one-sixth has-text-centered">
+                        <figure>
+                            <img src="assets/image/php.png" alt="PHP" class="skill-image">
+                            <figcaption>PHP</figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- C -->
+                    <div class="column is-one-sixth has-text-centered">
+                        <figure>
+                            <img src="assets/image/c.png" alt="C" class="skill-image">
+                            <figcaption>C</figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- Java -->
+                    <div class="column is-one-sixth has-text-centered">
+                        <figure>
+                            <img src="assets/image/java.png" alt="Java" class="skill-image">
+                            <figcaption>Java</figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- Python -->
+                    <div class="column is-one-sixth has-text-centered">
+                        <figure>
+                            <img src="assets/image/python.png" alt="Python" class="skill-image">
+                            <figcaption>Python</figcaption>
+                        </figure>
+                    </div>
+
+
+                    <!-- Kotlin -->
+                    <div class="column is-one-sixth has-text-centered">
+                        <figure>
+                            <img src="assets/image/kotlin.png" alt="Kotlin" class="skill-image">
+                            <figcaption>Kotlin</figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="column is-one-sixth has-text-centered">
+                        <figure>
+                            <img src="assets/image/javascript.png" alt="JavaScript" class="skill-image">
+                            <figcaption>JavaScript</figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- Typescript -->
+                    <div class="column is-one-sixth has-text-centered">
+                        <figure>
+                            <img src="assets/image/typescript.png" alt="Python" class="skill-image">
+                            <figcaption>Typescript</figcaption>
+                        </figure>
                     </div>
                 </div>
-                <div class="column">
-                    <figure class="image">
-                        <img src="https://i.postimg.cc/rsnKwTgH/BackEnd.webp" alt="dev Castellanos Back End">
-                    </figure>
+            </div>
+
+            <div class="title has-text-centered section-heading">
+                <h1 class="textoEncima title is-2 is-uppercase">{{"Marcado"|translate}}</h1>
+            </div>
+
+
+            <div class="lenguajes">
+                <div class="columns is-vcentered is-centered">
+                    <!-- HTML -->
+                    <div class="column is-narrow has-text-centered">
+                        <figure>
+                            <img src="assets/image/html.png" alt="HTML" class="skill-image2">
+                            <figcaption>HTML</figcaption>
+                        </figure>
+                    </div>
+            
+                    <!-- CSS -->
+                    <div class="column is-narrow has-text-centered">
+                        <figure>
+                            <img src="assets/image/css.png" alt="CSS" class="skill-image">
+                            <figcaption>CSS</figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- </div> -->
 
-        <div id="Herramientas">
-           
         </div>
     </div>
 </section>
 
 <!-- Hoja de Vida -->
-<section class="section  mt-6 mb-6" id="resume">
+<section class="section" id="resume">
     <div class="container">
         <div class="has-text-centered section-heading">
             <h1 class="textoDetras title is-2 is-uppercase">{{"TITULO3_PROFILE"|translate}}</h1>

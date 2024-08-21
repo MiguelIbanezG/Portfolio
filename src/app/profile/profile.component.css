@@ -1,0 +1,64 @@
+.container{
+    margin-top: -3%;
+}
+
+.box{
+    background-color: black;
+}
+
+.table{
+    color: white;
+}
+
+.box2{
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.skills {
+    margin-top: 50px;
+}
+
+.lenguajes{
+    margin-top: 100px;
+}
+
+.skill-image {
+    width: 150px;
+    height: 150px; 
+    object-fit: contain; 
+}
+
+.skill-image2 {
+    width: 137px; 
+    height: 137px; 
+    object-fit: contain;
+}
+
+
+figcaption{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.title{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .skills {
+        margin-top: 80px;
+    }
+    .lenguajes{
+        margin-top: 40px;
+    }
+
+}

@@ -6,5 +6,36 @@
     "Learn": "Learn programming",
     "Saludo": "HELLO!!",
     "Nombre": "I'm Miguel Ibáñez González",
-    "Puesto": "Computer Technical Engineer"
+    "Puesto": "Computer science engineer",
+    "Info": "Information",
+    "Perfil":"Profile",
+    "Skills": "Skills",
+    "Name": "Name",
+    "Carrera": "Career",
+    "Master": "Postgraduate",
+    "Nombre2": "Miguel Ibáñez González",
+    "Residencia" : "Residence",
+    "Residencia2": "Madrid - Spain",
+    "Universidad": "Universisty",
+    "Universidad2": "Autonomous University of Madrid",
+    "Carrera2": "Computer Engineer",
+    "Master2": "Computer Engineer",
+    "Gmail": "Gmail",
+    "Gmail2": "miguel.ibanez.gon@gmail.com",
+    "Linkedin": "Linkedin",
+    "Linkedin2": "in/miguel-ibañez",
+    "GitHub": "GitHub",
+    "GitHub2": "github.com/MiguelIbanezG",
+    "Teléfono": "Phone",
+    "Teléfono2": "+34 676134878",
+    "Sobre_mi": "About me",
+    "Info_sobre_mi": "Computer Science Engineer. Focused on software development and the pursuit of innovative IT solutions. Committed to continuous learning and professional growth. Passionate about technology, with strong skills in programming, data analysis, and system design.",
+    "Lenguajes": "Programming Languages",
+    "Bases_datos": "Databases",
+    "Marcado": "Markup Languages and Style Sheets",
+    "Herramientas": "Tools",
+    "Tecnologias": "Technologies"
+    
+
+
 }

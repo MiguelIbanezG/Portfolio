@@ -16,18 +16,21 @@
 }
 
 .is-rounded {
-    height: 130%; 
-    width: 130%; 
-    margin-top: -30%;
+    width: 150%;
+    height: 150%;
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin-top: -50%;
 }
 
 .circular-border {
     border: 3px solid black; 
-    border-radius: 100%; 
+    border-radius: 50%; 
     padding: 2px; 
     height: 45vh; 
     width: 45vh;
     margin-top: 50px;
+    overflow: hidden; 
 }
 
 .icono-saludo {
