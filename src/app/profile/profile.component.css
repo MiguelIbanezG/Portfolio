@@ -1,12 +1,24 @@
 .container{
-    margin-top: -3%;
+    margin-top: -5%;
 }
+
+.container2{
+    margin-top: -5%;
+}
+
 
 .box{
     background-color: black;
 }
 
-.table{
+td {
+    word-wrap: break-word; 
+    white-space: normal;  
+}
+
+table {
+    table-layout: fixed; 
+    width: 100%; 
     color: white;
 }
 
@@ -24,22 +36,22 @@ p{
 }
 
 .skills {
-    margin-top: 50px;
+    margin-top: -6%;
 }
 
 .lenguajes{
-    margin-top: 100px;
+    margin-top: 5%;
 }
 
 .skill-image {
-    width: 150px;
-    height: 150px; 
+    width: 130px;
+    height: 130px; 
     object-fit: contain; 
 }
 
 .skill-image2 {
-    width: 137px; 
-    height: 137px; 
+    width: 120px; 
+    height: 120px; 
     object-fit: contain;
 }
 
@@ -60,12 +72,6 @@ figcaption{
 .columns{
     flex-wrap: wrap;
     gap: 40px; 
-}
-.row{
-    display: flex;
-    justify-content: center; 
-    gap: 20px; 
-    flex-wrap: wrap;
 }
 
 .title{
@@ -95,10 +101,20 @@ figcaption{
 
 h1{
     color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.textoEncima{
+    font-size: 38px;
 }
 
 .curriculumsec{
     margin-bottom: 30px;
+}
+
+.link{
+    margin-top: -3%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -107,6 +123,16 @@ h1{
     }
     .lenguajes{
         margin-top: 40px;
+    }
+
+    .container2{
+        margin-top: -20%;
+    }
+    .link{
+        margin-top: -10%;
+    }
+    .curriculumsec{
+        margin-top: -30%;
     }
 
 }
