@@ -3,12 +3,13 @@
 }
 
 .container2{
-    margin-top: -5%;
+    margin-top: -8%;
 }
-
-
 .box{
     background-color: black;
+}
+.perfil{
+    margin-top: 70px !important;
 }
 
 td {
@@ -35,10 +36,6 @@ p{
     font-size: 19px;
 }
 
-.skills {
-    margin-top: -6%;
-}
-
 .lenguajes{
     margin-top: 5%;
 }
@@ -62,20 +59,28 @@ p{
 .skill-image:hover, .skill-image2:hover {
     transform: scale(1.2); 
 }
-
-
+.image{
+    width: 100%;
+}
 figcaption{
     font-weight: bold;
     font-size: 20px;
     color: black;
 }
-.columns{
+.columns {
     flex-wrap: wrap;
-    gap: 40px; 
+    gap: 20px; 
 }
 
 .title{
     margin-top: 100px;
+    font-size: 35px !important;
+    text-align: center; 
+}
+
+.subtitle{
+    font-size: 25px !important;
+    margin-bottom: -50px;
 }
 
 .custom-button-black {
@@ -92,7 +97,7 @@ figcaption{
 }
 
 .custom-button-black:hover .icon i {
-    color: #ffffff; /* Color blanco para el icono en hover */
+    color: #ffffff; 
 }
 
 .custom-button-black .icon i {
@@ -101,7 +106,7 @@ figcaption{
 
 h1{
     color: #000;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -110,6 +115,7 @@ h1{
 }
 
 .curriculumsec{
+    margin-top: -180px !important;
     margin-bottom: 30px;
 }
 
@@ -117,22 +123,150 @@ h1{
     margin-top: -3%;
 }
 
+.custom-hr {
+    border: none;   
+    height: 0.1px;       
+    background-color: black;      
+    border-top: 0px solid #000 !important;  
+    margin-left: 100px;   
+    margin-right: 100px; 
+    margin-top: 50px;          
+  }
+
+.skills{
+    margin-top: -2%;
+}
+
+.trab{
+    margin-bottom: 80px;
+}
+
+.line-title {
+    border: none;
+    border-top: 3px solid #000; 
+    width: 22%;                  
+    margin: 0 auto; 
+    margin-top: -20px;  
+    margin-bottom: 20px;      
+}
+
+.line-title3 {
+    border: none;
+    border-top: 3px solid #000; 
+    width: 9%;                  
+    margin: 0 auto; 
+    margin-top: -20px;  
+    margin-bottom: 20px;      
+}
+
+.line-title2 {
+    border: none;
+    border-top: 3px solid #000; 
+    width: 17%;                  
+    margin: 0 auto; 
+    margin-top: -80px;  
+    margin-bottom: 70px;      
+}
+
 @media screen and (max-width: 1024px) {
-    .skills {
-        margin-top: 80px;
+
+    .container{
+        margin-top: -110px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .title{
+        font-size: 130% !important;
+        margin-bottom: 10%;
+    }
+    .subtitle{
+        font-size: 90% !important;
+        margin-top: 0px !important;
+        margin-bottom: 20px;
+    }
+    .perfil{
+        font-size: 70%;
+        margin-top: -2% !important;
+        margin-bottom: 50px;
+    }
+    .container2{
+        margin-top: -200px;
+    }
+    .info{
+        font-size: 70%;
     }
     .lenguajes{
-        margin-top: 40px;
+        margin-top: -2%;
     }
-
-    .container2{
-        margin-top: -20%;
+    .image{
+        width: 100%;
     }
     .link{
-        margin-top: -10%;
+        margin-top: -40px;
     }
     .curriculumsec{
-        margin-top: -30%;
+        margin-top: -20px;
     }
+    .skill-image {
+        width: 80px;
+        height: 80px; 
+        object-fit: contain; 
+    }
+    
+    .skill-image2 {
+        width: 75px; 
+        height: 75px; 
+        object-fit: contain;
+    }
+    h1{
+        font-size: 100% !important;
+    }
+    figcaption{
+        font-size: 16px;
+    }
+
+    .custom-hr {
+        border: none;   
+        height: 0.1px;       
+        background-color: black;      
+        border-top: 0px solid #000 !important;  
+        margin-left: 10px;   
+        margin-right: 10px; 
+        margin-top: 30px;          
+    }
+
+    .sobre{
+        margin-top: -100px;
+    }
+    .skills{
+        margin-top: -50px;
+    }
+
+    .line-title {
+        border: none;
+        border-top: 3px solid #000; 
+        width: 45%;                  
+        margin: 0 auto; 
+        margin-top: -10%;  
+        margin-bottom: 50px;      
+    }
+    
+    .line-title3 {
+        border: none;
+        border-top: 3px solid #000; 
+        width: 30%;                  
+        margin: 0 auto; 
+        margin-top: -10%;  
+        margin-bottom: 30px !important;      
+    }
+    
+    .line-title2 {
+        border: none;
+        border-top: 3px solid #000; 
+        width: 55%;                  
+        margin: 0 auto; 
+        margin-top: -10%;  
+        margin-bottom: 70px;      
+    }
+      
 
 }

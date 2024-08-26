@@ -1,12 +1,13 @@
 <!-- Perfil -->
 <section class="section">
     <div class="container">
-        <div class="has-text-centered section-heading">
+        <div class="title has-text-centered section-heading">
             <h1 class="textoEncima title is-2 is-uppercase">{{"Info"|translate}}</h1>
+            <hr class="line-title">
             <h1 class="subtitle is-uppercase">{{"Perfil"|translate}}</h1>
         </div>
 
-        <div class="box mt-6 transparente">
+        <div class="perfil box mt-6 transparente">
             <div class="content">
                 <table class="table has-text-centered">
                     <tbody class="box2">
@@ -51,39 +52,47 @@
             </div>
         </div>
     </div>
+    <hr class="custom-hr">
+
 </section>
+
 
 <section class="section">
     <div class="container2">
-        <div class="has-text-centered section-heading">
+        <div class="title has-text-centered section-heading">
             <h1 class="textoEncima title is-2 is-uppercase">{{"Sobre_mi"|translate}}</h1>
+            <hr class="line-title3">
         </div>
-        <div>
-            <div class="columns is-vcentered is-centered">
-                <div class="column">
-                    <figure class="image">
-                        <img src="https://i.postimg.cc/vmsHMDbB/FrontEnd.webp" alt="dev Castellanos Front End">
-                    </figure>
-                </div>
-                <div class="column transparente is-vcentered is-centered">
-                    <div class="box">
-                        <div class="content">
-                            <p>{{"Info_sobre_mi"|translate}}</p>
-                        </div>
+
+        <div class="sobre columns is-vcentered is-centered is-gapless">
+            <div class="column is-offset-2 is-3">
+                <figure class="image">
+                    <img src="https://i.postimg.cc/vmsHMDbB/FrontEnd.webp" alt="dev Castellanos Front End">
+                </figure>
+            </div>
+            <div class="column transparente is-vcentered is-centered is-offset-2 is-5">
+                <div class="box">
+                    <div class="content">
+                        <p class="info">{{"Info_sobre_mi"|translate}}</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="skills" id="Herramientas">
-            <div class="has-text-centered section-heading">
-                <h1 class="textoEncima title is-2 is-uppercase">{{"Lenguajes"|translate}}</h1>
+        <hr class="custom-hr">
+
+
+        <div class="skills">
+            <div class="title has-text-centered section-heading">
+                <h1 class="trab textoEncima title is-2 is-uppercase">{{"Trabajado"|translate}}</h1>
+                <hr class="line-title2">
+                <h1 class="first textoEncima subtitle is-2 is-uppercase">{{"Lenguajes"|translate}}</h1>
             </div>
     
             <div class="lenguajes">
-                <div class="columns is-vcentered is-centered">
+                <div class="columns is-vcentered is-centered is-mobile">
                     <!-- PHP -->
-                    <div class="column is-one-sixth has-text-centered">
+                    <div class="column is-narrow has-text-centered">
                         <figure>
                             <img src="assets/image/php.png" alt="PHP" class="skill-image">
                             <figcaption>PHP</figcaption>
@@ -91,7 +100,7 @@
                     </div>
 
                     <!-- C -->
-                    <div class="column is-one-sixth has-text-centered">
+                    <div class="column is-narrow has-text-centered">
                         <figure>
                             <img src="assets/image/c.png" alt="C" class="skill-image">
                             <figcaption>C</figcaption>
@@ -99,7 +108,7 @@
                     </div>
 
                     <!-- Java -->
-                    <div class="column is-one-sixth has-text-centered">
+                    <div class="column is-narrow has-text-centered">
                         <figure>
                             <img src="assets/image/java.png" alt="Java" class="skill-image">
                             <figcaption>Java</figcaption>
@@ -107,7 +116,7 @@
                     </div>
 
                     <!-- Python -->
-                    <div class="column2 is-one-sixth has-text-centered">
+                    <div class="column is-narrow has-text-centered">
                         <figure>
                             <img src="assets/image/python.png" alt="Python" class="skill-image">
                             <figcaption>Python</figcaption>
@@ -116,7 +125,7 @@
 
 
                     <!-- Kotlin -->
-                    <div class="column is-one-sixth has-text-centered">
+                    <div class="column is-narrow has-text-centered">
                         <figure>
                             <img src="assets/image/kotlin.png" alt="Kotlin" class="skill-image">
                             <figcaption>Kotlin</figcaption>
@@ -124,7 +133,7 @@
                     </div>
 
                     <!-- JavaScript -->
-                    <div class="column is-one-sixth has-text-centered">
+                    <div class="column is-narrow has-text-centered">
                         <figure>
                             <img src="assets/image/javascript.png" alt="JavaScript" class="skill-image">
                             <figcaption>JavaScript</figcaption>
@@ -132,7 +141,7 @@
                     </div>
 
                     <!-- Typescript -->
-                    <div class="column is-one-sixth has-text-centered">
+                    <div class="column is-narrow has-text-centered">
                         <figure>
                             <img src="assets/image/typescript.png" alt="Python" class="skill-image">
                             <figcaption>Typescript</figcaption>
@@ -141,13 +150,13 @@
                 </div>
             </div>
 
-            <div class="title has-text-centered section-heading">
-                <h1 class="textoEncima title is-2 is-uppercase">{{"Marcado"|translate}}</h1>
+            <div class="title has-text-centered section-heading ">
+                <h1 class="textoEncima subtitle is-2 is-uppercase">{{"Marcado"|translate}}</h1>
             </div>
 
 
             <div class="lenguajes">
-                <div class="columns is-vcentered is-centered">
+                <div class="columns is-vcentered is-centered is-mobile">
                     <!-- HTML -->
                     <div class="column is-narrow has-text-centered">
                         <figure>
@@ -167,12 +176,12 @@
             </div>
 
             <div class="title has-text-centered section-heading">
-                <h1 class="textoEncima title is-2 is-uppercase">{{"Herramientas"|translate}}</h1>
+                <h1 class="textoEncima subtitle is-2 is-uppercase">{{"Herramientas"|translate}}</h1>
             </div>
 
 
             <div class="lenguajes">
-                <div class="columns is-vcentered is-centered">
+                <div class="columns is-vcentered is-centered is-mobile">
            
                         <!-- Android Studio -->
                         <div class="column is-narrow has-text-centered">
@@ -213,10 +222,6 @@
                                 <figcaption>jQuery</figcaption>
                             </figure>
                         </div>
-
-              
-          
-              
 
                         <!-- GitHub -->
                         <div class="column is-narrow has-text-centered">
@@ -270,12 +275,12 @@
             </div>
 
             <div class="title has-text-centered section-heading">
-                <h1 class="textoEncima title is-2 is-uppercase">{{"Frameworks"|translate}}</h1>
+                <h1 class="textoEncima subtitle is-2 is-uppercase">{{"Frameworks"|translate}}</h1>
             </div>
 
 
             <div class="lenguajes">
-                <div class="columns is-vcentered is-centered">
+                <div class="columns is-vcentered is-centered is-mobile">
                     <!-- Angular -->
                     <div class="column is-narrow has-text-centered">
                         <figure>
@@ -328,12 +333,12 @@
             </div>
 
             <div class="title has-text-centered section-heading">
-                <h1 class="textoEncima title is-2 is-uppercase">{{"Bases_datos"|translate}}</h1>
+                <h1 class="textoEncima subtitle is-2 is-uppercase">{{"Bases_datos"|translate}}</h1>
             </div>
 
 
             <div class="lenguajes">
-                <div class="columns is-vcentered is-centered">
+                <div class="columns is-vcentered is-centered is-mobile">
                     <!-- Mysql -->
                     <div class="column is-narrow has-text-centered">
                         <figure>
@@ -370,13 +375,16 @@
 
         </div>
     </div>
+    <hr class="custom-hr">
 </section>
 
 <!-- Hoja de Vida -->
 <section class="section" id="resume">
+
     <div class="container">
         <div class="curriculumsec has-text-centered section-heading">
             <h1 class="textoEncima title is-2 is-uppercase">{{"Curriculum2"|translate}}</h1>
+            <hr class="line-title">
             <div class="link">
                 <a href="https://drive.google.com/file/d/1M5zK9awfH7FBhVXgdLJxfMsfgVUNUAHa/view?usp=drive_link" target="_blank" class="is-hidden-touch button is-outlined custom-button-black is-large mt-6">
                     <span class="icon">
@@ -386,7 +394,7 @@
                 </a>
 
                      
-                <a href="https://drive.google.com/file/d/1M5zK9awfH7FBhVXgdLJxfMsfgVUNUAHa/view?usp=drive_link" target="_blank" class="is-hidden-desktop button is-outlined custom-button-black is-normal mt-6">
+                <a href="https://drive.google.com/file/d/1M5zK9awfH7FBhVXgdLJxfMsfgVUNUAHa/view?usp=drive_link" target="_blank" class="is-hidden-desktop button is-outlined custom-button-black is-normal mt-4 mb-6">
                     <span class="icon">
                         <i class="fa fa-download"></i>
                     </span>
