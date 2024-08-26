@@ -198,6 +198,7 @@ h1{
         margin-top: -2%;
     }
     .image{
+        margin-top: 30px !important;
         width: 100%;
     }
     .link{
@@ -235,7 +236,7 @@ h1{
     }
 
     .sobre{
-        margin-top: -100px;
+        margin-top: -40px;
     }
     .skills{
         margin-top: -50px;
@@ -244,16 +245,16 @@ h1{
     .line-title {
         border: none;
         border-top: 3px solid #000; 
-        width: 45%;                  
+        width: 75%;                  
         margin: 0 auto; 
         margin-top: -10%;  
-        margin-bottom: 50px;      
+        margin-bottom: 25px;      
     }
     
     .line-title3 {
         border: none;
         border-top: 3px solid #000; 
-        width: 30%;                  
+        width: 50%;                  
         margin: 0 auto; 
         margin-top: -10%;  
         margin-bottom: 30px !important;      
@@ -262,10 +263,19 @@ h1{
     .line-title2 {
         border: none;
         border-top: 3px solid #000; 
+        width: 95%;                  
+        margin: 0 auto; 
+        margin-top: -10%;  
+        margin-bottom: 50px;     
+    }
+
+    .line-title4 {
+        border: none;
+        border-top: 3px solid #000; 
         width: 55%;                  
         margin: 0 auto; 
         margin-top: -10%;  
-        margin-bottom: 70px;      
+        margin-bottom: 15px;     
     }
       
 
