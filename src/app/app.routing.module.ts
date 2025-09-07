@@ -6,6 +6,7 @@ import { ExperiencieComponent } from './experiencie/experiencie.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProyectsComponent } from './proyects/proyects.component';
 import { ProgrammingComponent } from './programming/programming.component';
+import { GamesComponent } from './games/games.component';
 
 
 const routes: Routes = [ 
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'experiencie', component: ExperiencieComponent },
   { path: 'proyects', component: ProyectsComponent },
   { path: 'programming', component: ProgrammingComponent },
+  { path: 'games', component: GamesComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 

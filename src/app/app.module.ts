@@ -20,6 +20,7 @@ import { ProgrammingComponent } from './programming/programming.component';
 import { ProyectsComponent } from './proyects/proyects.component';
 import { SocialNetworkComponent } from './social-network/social-network.component';
 import { ContactComponent } from './contact/contact.component';
+import { GamesComponent } from './games/games.component';
 
 
 /**
@@ -42,7 +43,8 @@ export function createTranslateLoader(http: HttpClient) {
     ProgrammingComponent,
     ProyectsComponent,
     SocialNetworkComponent,
-    ContactComponent
+    ContactComponent,
+    GamesComponent
   ],
   imports: [
     TranslateModule.forRoot({

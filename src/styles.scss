@@ -9,6 +9,9 @@ html {
     background: -webkit-linear-gradient(to right, #ffffff, #6e6a6a);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffffff, #6e6c6c);
+      -ms-overflow-style: none;   /* IE/Edge antiguo */
+  scrollbar-width: none;      /* Firefox */
+  overflow-y: auto;
 }
 
 .textoEncima {
@@ -36,3 +39,5 @@ footer{
     bottom: 0px;
     width: 100%;
   }
+
+

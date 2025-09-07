@@ -4,12 +4,16 @@
         "Profile": "Perfil",
         "Experiencie": "Experiencia Laboral",
         "Proyects": "Proyectos Personales",
-        "Learn": "Aprende Progrmación"
+        "Learn": "Aprende Programación",
+        "Games": "Juegos"
     },
     "Home":{
         "Greetings": "HOLAA!!",
         "Name": "Soy Miguel Ibáñez González",
-        "Job": "Ingeniero Técnico Informático"
+        "Job": "Ingeniero Técnico Informático",
+        "Welcome": "Bienvenido a mi portfolio",
+        "Explore": "Conoceme, juega un poco y aprende conmigo",
+        "Software": "Ingeniero Informático - Arquitecto de software"
     },
     "Profile":{
         "Info":"Información",
@@ -34,7 +38,7 @@
         "Phone": "Teléfono",
         "MyPhone": "+34 676134878",
         "About_me": "Sobre mi",
-        "Info_about_me": "Ingeniero Técnico Informático. Enfocado en el desarrollo de software y en la busqueda de soluciones informáticas innovadoras. Comprometido con el aprendizaje continuo y el crecimiento profesional. Apasionado por la tecnología, con grandes habilidades en programación, análisis de datos y diseño de sistemas.",
+        "Info_about_me": "Ingeniero Informático especializado en el desarrollo de software y la búsqueda de soluciones informáticas. Apasionado por la tecnología, con excelentes habilidades en programación, análisis de datos y arquitectura de software. Actualmente trabajo en Vaelsys, donde principalmente me encargo del desarrollo y mejora de Vaelsys V4, un sistema avanzado de análisis de video en tiempo real. Además, trabajo en el desarrollo y optimización de diversas aplicaciones web, tanto backend como frontend, así como en su despliegue y mantenimiento. También gestiono la clusterización para garantizar la escalabilidad y eficiencia de distintos sistemas.",
         "Languages":"Lenguajes de Programación",
         "Databases": "Bases de datos",
         "Markup": "Lenguajes de Marcado y Hojas de Estilo",

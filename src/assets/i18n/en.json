@@ -4,12 +4,16 @@
         "Profile": "Profile",
         "Experiencie": "Working Experience",
         "Proyects": "Personal Projects",
-        "Learn": "Learn programming"
+        "Learn": "Learn programming",
+        "Games": "Games"
     },
     "Home":{
         "Greetings": "HELLO!!",
         "Name": "I'm Miguel Ibáñez González",
-        "Job": "Computer science engineer"
+        "Job": "Computer science engineer",
+        "Welcome": "Welcome to my portfolio",
+        "Explore": "Get to know me, play a little and learn with me",
+        "Software": "Computer Engineer - Software Architect"
     },
     "Profile":{
         "Info": "Information",
@@ -34,7 +38,7 @@
         "Phone": "Phone",
         "MyPhone": "+34 676134878",
         "About_me": "About me",
-        "Info_about_me": "Computer Science Engineer. Focused on software development and the pursuit of innovative IT solutions. Committed to continuous learning and professional growth. Passionate about technology, with strong skills in programming, data analysis, and system design.",
+        "Info_about_me": "Computer Engineer specialized in software development and IT solutions. Passionate about technology, with strong skills in programming, data analysis, and software architecture. I am currently working at Vaelsys, where I am mainly responsible for the development and improvement of Vaelsys V4, an advanced real-time video analysis system. In addition, I work on the development and optimization of various web applications, both backend and frontend, as well as their deployment and maintenance. I also manage clustering to ensure the scalability and efficiency of different systems.",
         "Languages": "Programming Languages",
         "Databases": "Databases",
         "Markup": "Markup Languages and Style Sheets",

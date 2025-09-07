@@ -1,50 +1,52 @@
-<section class="section pt-0">
-    <div class="container">
-        <div class="cajaPadre has-text-centered is-hidden-touch">
-            <div class="cajaFoto">
-                <figure class="image">
-                    <div class="circular-border">
-                        <img src="assets/image/foto2.png" class="is-rounded" alt="Miguel Ibáñez">
-                    </div>
-                </figure>
-            </div>
-            <div class="text-saludo">
-                <h1 class="saludo">
-                    <img src="assets/image/mano.png" alt="Icono de saludo" class="icono-saludo">
-                    <strong>{{ "Saludo" | translate }}</strong>
-                </h1>
-                <p class="nombre">
-                    <strong>{{"Nombre"|translate}}</strong>
-                </p>
-                <p class="puesto">
-                    <strong>{{"Puesto"|translate}}</strong>
-                </p>
-            </div>
-        </div>
+<section class="home-hero">
 
-        <div class="has-text-centered is-hidden-desktop">
-            <div class="columns">
+  <div class="bubbles">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 
-                <div class="column">
-                    <figure class="image is-3by4">
-                        <img src="assets/image/foto2.png" class="is-rounded " alt="Miguel Ibáñez">
-                    </figure>
-                </div>
 
-                <div class="column">
-                    <div class="row">
-                        <h1 class="has-text-centered is-size-4">
-                            <strong>{{ "Saludo" | translate }}</strong>
-                        </h1>
-                        <p class="has-text-centered is-size-4">
-                            <strong>{{"Nombre"|translate}}</strong>
-                        </p>
-                        <p class="has-text-centered is-size-4">
-                            <strong>{{"Puesto"|translate}}</strong>
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <div class="home-container">
+    <!-- Foto circular (la tuya) -->
+    <div class="home-photo">
+        <div class="circular-border">
+            <img src="assets/image/foto2.png" class="is-rounded" alt="Miguel Ibáñez">
         </div>
     </div>
+
+    <!-- Texto animado -->
+    <div class="home-text">
+    <h1 class="typewriter main" aria-label="Bienvenido a mi portfolio">
+        <span class="typewriter-text main">{{'Home.Welcome' | translate}}</span>
+    </h1>
+
+    <p class="typewriter sub" aria-label="Explora mis proyectos">
+        <span class="typewriter-text sub">{{'Home.Explore' | translate}}</span>
+    </p>
+
+        <p class="typewriter third" aria-label="Arquitecto de software">
+            <span class="typewriter-text third">{{'Home.Software' | translate}}</span>
+        </p>
+    </div>
+
+  </div>
+
 </section>
