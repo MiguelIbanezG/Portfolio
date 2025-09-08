@@ -91,6 +91,71 @@
   animation-delay: 1s;
 }
 
+.bubbles span:nth-child(8) {
+  left: 5%;
+  width: 25px;
+  height: 25px;
+  animation-duration: 12s;
+  animation-delay: 2s;
+}
+
+.bubbles span:nth-child(9) {
+  left: 18%;
+  width: 50px;
+  height: 50px;
+  animation-duration: 17s;
+  animation-delay: 4s;
+}
+
+.bubbles span:nth-child(10) {
+  left: 35%;
+  width: 40px;
+  height: 40px;
+  animation-duration: 13s;
+  animation-delay: 1s;
+}
+
+.bubbles span:nth-child(11) {
+  left: 60%;
+  width: 70px;
+  height: 70px;
+  animation-duration: 19s;
+  animation-delay: 3s;
+}
+
+.bubbles span:nth-child(12) {
+  left: 75%;
+  width: 25px;
+  height: 25px;
+  animation-duration: 14s;
+  animation-delay: 2s;
+}
+
+.bubbles span:nth-child(13) {
+  left: 82%;
+  width: 55px;
+  height: 55px;
+  animation-duration: 15s;
+  animation-delay: 5s;
+}
+
+.bubbles span:nth-child(14) {
+  left: 42%;
+  width: 35px;
+  height: 35px;
+  animation-duration: 12s;
+  animation-delay: 6s;
+}
+
+.bubbles span:nth-child(15) {
+  left: 95%;
+  width: 80px;
+  height: 80px;
+  animation-duration: 20s;
+  animation-delay: 2s;
+}
+
+
 
 @keyframes rise {
   0% {

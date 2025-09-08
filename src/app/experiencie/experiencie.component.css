@@ -1,4 +1,174 @@
-.subtitle{
+h1 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 40px;
+    color: black;
+    padding: 0;
+    line-height: 1;   
+    display: inline-block; 
+    margin-bottom: 100px;
+}
+
+.line_info {
+    border: none;
+    border-top: 3px solid #000; 
+    width: 1000px;                  
+    margin: 0 auto;
+    margin-top: -2px;  
+    margin-bottom: 500px;
+}
+
+.section-heading .title {
+  margin-bottom: 0 !important; 
+  line-height: 1;
+}
+
+.section-heading .line_info {
+  border: none;
+  border-top: 3px solid #000;
+  width: 500px;
+  margin: 10px auto 100px; 
+}
+
+.box{
+    background-color: #000;
+    width: 120%;
+    margin-top: 0px;
+    margin-left: -60px;
+    font-size: 19px;
+}
+
+.about_me{
+    color: white;
+    font-size: 19px;
+}
+
+.custom-hr {
+    border: none;   
+    height: 0.1px;       
+    background-color: black;      
+    width: 90%;
+    margin: 50px auto; 
+}
+
+.box2{
+    background-color: #000;
+    width: 120%;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: -210px;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+figure{
+    margin-top: -25px;
+}
+
+.custom-hr2 {
+    border: none;   
+    height: 0.1px;       
+    background-color: black;      
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+.skill-image2 {
+  margin-left: -190px;   
+  margin-bottom: -330px;
+}
+
+.custom-hr3 {
+    border: none;   
+    height: 0.1px;       
+    background-color: black;      
+    width: 90%;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.columns{
+    margin-left: -100px;
+}
+
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-weight: bold;
+    font-size: 20px;     
+    color: black;
+    margin-bottom: 30px; 
+  }
+
+  .line_info,
+  .section-heading .line_info {
+    border: none;
+    border-top: 2px solid #000; 
+    width: 80%;             
+    margin: 10px auto 30px; 
+  }
+
+  .box,
+  .box2 {
+    background-color: #000;
+    width: 90%;        
+    margin: 20px auto; 
+    font-size: 16px;   
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .about_me {
+    color: white;
+    font-size: 16px; 
+  }
+
+  figure {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .skill-image{
+    max-width: 80%;   
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -30px;
+  }
+
+  .skill-image2 {
+    max-width: 100%;   
+    height: auto;
+    margin: 0;
+    margin-bottom: -50px;
+    display: block;
+  }
+
+  .custom-hr,
+  .custom-hr2,
+  .custom-hr3 {
+    border: none;
+    height: 1px;       
+    background-color: black;      
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .columns {
+    margin: 0;            
+    flex-direction: column; 
+    align-items: center;  
+  }
+
+    .columns { display:flex; flex-direction: column; }
+
+  /* sección 2: invierte el orden SOLO aquí */
+  .columns.swap-on-mobile { display:flex; flex-direction: column-reverse !important; }
+
+  /* Fallback por si alguna regla sigue ganando: fuerza el orden de los hijos */
+  .columns.swap-on-mobile > .column:first-child { order: 2; } /* texto abajo */
+  .columns.swap-on-mobile > .column:last-child  { order: 1; } /* imagen arriba */
+
+
+  
+
 }
