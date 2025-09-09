@@ -171,6 +171,30 @@ figcaption{
     color: #000000; 
 }
 
+
+
+@media (min-width: 1025px) {
+  .skills > .lenguajes:first-of-type .columns {
+    display: flex !important;
+    flex-wrap: wrap;       
+    justify-content: center; 
+    gap: 20px 40px;          
+    margin: 0 auto;          
+  }
+  .skills .title:has(> h1.first) + .lenguajes .column {
+    flex: initial !important;
+    max-width: none !important;
+    width: auto !important;
+  }
+
+  .skills .title:has(> h1.first) + .lenguajes .skill-image {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+
+
 @media screen and (max-width: 1024px) {
 
     .container{
@@ -239,19 +263,15 @@ figcaption{
         margin-bottom: 20px;
     }
 
-    .skills{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
     
     .skill-image {
-        width: 70px;
-        height: 70px; 
+        width: 100px !important;
+        height: 100px !important; 
     }
     
     .skill_image_html {
-        width: 63px;
-        height: 63px;
+        width: 100px !important;
+        height: 100px !important; 
     }
 
     .html-text{

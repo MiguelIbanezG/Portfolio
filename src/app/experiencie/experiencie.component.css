@@ -72,7 +72,7 @@ figure{
     margin-bottom: 100px;
 }
 
-.skill-image2 {
+.skill-image3 {
   margin-left: -190px;   
   margin-bottom: -330px;
 }
@@ -136,6 +136,14 @@ figure{
   }
 
   .skill-image2 {
+    max-width: 80%;  
+    height: auto;
+    margin: 0 auto;  
+    margin-bottom: -60px; 
+    display: block;
+  }
+
+  .skill-image3 {
     max-width: 100%;   
     height: auto;
     margin: 0;
@@ -153,6 +161,23 @@ figure{
     margin: 10px auto;
   }
 
+    .custom-hr {
+    border: none;
+    height: 1px;       
+    background-color: black;      
+    width: 80%;
+    margin: 0px auto;
+  }
+  
+
+  .custom-hr2{
+    border: none;
+    height: 1px;       
+    background-color: black;      
+    width: 80%;
+    margin: 0px auto;
+  }
+
   .columns {
     margin: 0;            
     flex-direction: column; 
@@ -161,14 +186,19 @@ figure{
 
     .columns { display:flex; flex-direction: column; }
 
-  /* sección 2: invierte el orden SOLO aquí */
-  .columns.swap-on-mobile { display:flex; flex-direction: column-reverse !important; }
-
-  /* Fallback por si alguna regla sigue ganando: fuerza el orden de los hijos */
-  .columns.swap-on-mobile > .column:first-child { order: 2; } /* texto abajo */
-  .columns.swap-on-mobile > .column:last-child  { order: 1; } /* imagen arriba */
-
-
-  
+  /* Sección 2: forzar que la imagen vaya arriba y el texto debajo */
+  .columns.swap-on-mobile { 
+    display: flex;           /* asegurar flex en esa fila */
+    flex-wrap: nowrap;       /* evita saltos raros */
+  }
+  .columns.swap-on-mobile > .column { 
+    width: 100%;             /* cada columna a ancho completo */
+  }
+  .columns.swap-on-mobile > .column:nth-child(1) { 
+    order: 2;                /* 1º hijo (texto) pasa abajo */
+  }
+  .columns.swap-on-mobile > .column:nth-child(2) { 
+    order: 1;                /* 2º hijo (imagen) pasa arriba */
+  }
 
 }

@@ -1,1 +1,37 @@
-<p>games works!</p>
+<div class="snake-wrapper">
+
+  <h1 class="title">Snake</h1>
+  <div class="hud">
+    <div class="score">
+      <span>Puntos:</span> <strong>{{ score }}</strong>
+    </div>
+    <div class="spacer"></div>
+    <div class="highscore">
+      <span>Récord:</span> <strong>{{ highScore }}</strong>
+    </div>
+  </div>
+
+  <canvas #board class="board" tabindex="0" aria-label="Snake"></canvas>
+
+  <div class="controls">
+    <button class="btn primary" (click)="start()">▶ Empezar</button>
+    <button class="btn" (click)="togglePause()">{{ paused ? 'Reanudar' : 'Pausa' }}</button>
+    <button class="btn danger" (click)="reset()">⟲ Reiniciar</button>
+  </div>
+
+  <div class="touch-grid" aria-hidden="true">
+    <div class="row">
+      <button class="pad" (click)="onTouch('up')">▲</button>
+    </div>
+    <div class="row">
+      <button class="pad" (click)="onTouch('left')">◀</button>
+      <button class="pad" (click)="onTouch('down')">▼</button>
+      <button class="pad" (click)="onTouch('right')">▶</button>
+    </div>
+  </div>
+
+  <p class="hint">
+    Controles: Flechas / WASD · <kbd>Espacio</kbd> pausa · <kbd>Enter</kbd> iniciar
+  </p>
+</div>
+
